@@ -18,8 +18,8 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products/:id" element={<ProductDetails />} />
+          <Route path="/about/*" element={<About />} />
+          <Route path="/products/:id/*" element={<ProductDetails />} />
           <Route path="/products" element={<Products />} />
         </Routes>
       </BrowserRouter>
