@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap");
 
 body {
   margin: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #333;
 }
 a {
@@ -32,7 +32,30 @@ nav h1 {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
-.offers, .products {
+.offers,
+.products {
   display: flex;
   gap: 20px;
+}
+
+/* Not Found Page */
+.not-found {
+  text-align: center;
+  border: rgb(3, 196, 154) solid 0.5px;
+  max-width: 300px;
+  padding: 4px;
+  border-radius: 4px;
+  margin: auto;
+  padding-bottom: 8px;
+}
+.not-found a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.not-found a:hover {
+  border: rgb(3, 196, 154) solid 0.5px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
 }
